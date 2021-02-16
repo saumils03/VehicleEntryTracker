@@ -11,6 +11,7 @@ import numpy as np
 import pytesseract as pyt
 
 window = tk.Tk()
+root.configure(background='black')
 menubar = tk.Menu(window)
 file_menu = tk.Menu(menubar, tearoff = 0)
 file_menu.add_command(label = "Read Database")
